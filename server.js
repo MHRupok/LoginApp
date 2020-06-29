@@ -21,7 +21,7 @@ initializePassport(
 
 const users = []
 // 
-app.use( express.static( "public" ) );
+// app.use( express.static( "public" ) );
 app.use(expressLayouts)
 //
 app.set('view engine','ejs')
